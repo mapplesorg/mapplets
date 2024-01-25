@@ -1,0 +1,51 @@
+{
+  "name": "mapplets-text",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/mapplets-text/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/mapplets-text",
+        "tsConfig": "packages/mapplets-text/tsconfig.lib.json",
+        "packageJson": "packages/mapplets-text/package.json",
+        "main": "packages/mapplets-text/src/index.ts",
+        "assets": [
+          "packages/mapplets-text/*.md",
+          "packages/mapplets-text/assets/**/**.*"
+        ]
+      }
+    },
+    "version": {
+      "executor": "@mapplesorg/nx-tools:version"
+    },
+    "publish": {
+      "executor": "@mapplesorg/nx-tools:publish",
+      "options": {
+        "access": "restricted"
+      },
+      "dependsOn": ["^build", "build"]
+    },
+    "release": {
+      "executor": "@mapplesorg/nx-tools:publish",
+      "options": {
+        "access": "restricted"
+      },
+      "dependsOn": ["version", "^build", "build"]
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "packages/mapplets-text/jest.config.ts"
+      }
+    }
+  }
+}

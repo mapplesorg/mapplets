@@ -1,0 +1,3 @@
+# Changelog
+
+## mapplets-view

@@ -24,6 +24,7 @@
     "@nx/js": "17.2.8",
     "@nx/react": "^17.2.8",
     "@nx/react-native": "^17.2.8",
+    "@nx/rollup": "17.2.8",
     "@react-native-community/cli": "11.3.7",
     "@react-native-community/cli-platform-android": "11.3.7",
     "@react-native-community/cli-platform-ios": "11.3.7",

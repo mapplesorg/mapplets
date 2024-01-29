@@ -5,7 +5,7 @@ import {
   TouchableOpacityProps,
 } from 'react-native';
 
-import { ViewRef, ViewProps } from '@mapplesorg/mapplets-view';
+import { ViewRef, ViewProps } from '@mapples/mapplets-view';
 
 export type CardRef = ViewRef;
 export type CardActionAreaRef = TouchableOpacity;

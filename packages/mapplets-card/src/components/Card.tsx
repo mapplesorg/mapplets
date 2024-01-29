@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-import { View } from '@mapplesorg/mapplets-view';
+import { View } from '@mapples/mapplets-view';
 
 import { CardProps, CardRef } from '../types';
 

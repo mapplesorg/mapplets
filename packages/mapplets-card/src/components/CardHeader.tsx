@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 
-import { View } from '@mapplesorg/mapplets-view';
-import { Text } from '@mapplesorg/mapplets-text';
+import { View } from '@mapples/mapplets-view';
+import { Text } from '@mapples/mapplets-text';
 
 import { CardHeaderProps, CardRef } from '../types';
 

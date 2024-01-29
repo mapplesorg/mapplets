@@ -1,9 +1,9 @@
 import { merge } from 'lodash';
 
-import ButtonComponent from '@mapplesorg/mapplets-button';
-import TextComponent from '@mapplesorg/mapplets-text';
-import CardComponent from '@mapplesorg/mapplets-card';
-import ViewComponent from '@mapplesorg/mapplets-view';
+import ButtonComponent from '@mapples/mapplets-button';
+import TextComponent from '@mapples/mapplets-text';
+import CardComponent from '@mapples/mapplets-card';
+import ViewComponent from '@mapples/mapplets-view';
 
 export const RendererComponentSet = merge(
   ButtonComponent,

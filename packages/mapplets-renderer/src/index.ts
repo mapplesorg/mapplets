@@ -1,6 +1,6 @@
 import { createElement, ReactElement } from 'react';
 import { map } from 'lodash';
-import { MappletsComponentDescriptor } from '@mapplesorg/mapplets-types';
+import { MappletsComponentDescriptor } from '@mapples/mapplets-types';
 
 import { RendererComponentSet } from './constants';
 import { RendererComponentType } from './types';

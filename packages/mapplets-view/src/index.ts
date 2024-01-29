@@ -1,3 +1,16 @@
-const NewComponent = 'mapplets-view';
+import { MappletsComponentSet } from '@mapplesorg/mapplets-types';
 
-export default NewComponent;
+import View from './components/View';
+import ScrollView from './components/ScrollView';
+
+import { ViewComponentType } from './types';
+
+const ViewComponent: MappletsComponentSet<ViewComponentType> = {
+  View,
+  ScrollView,
+};
+
+export * from './types';
+export { View, ScrollView };
+
+export default ViewComponent;

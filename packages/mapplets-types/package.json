@@ -1,0 +1,8 @@
+{
+  "name": "@mapplesorg/mapplets-types",
+  "version": "0.0.1",
+  "dependencies": {
+    "@testing-library/jest-native": "~5.4.3",
+    "react": "18.2.0"
+  }
+}

@@ -17,19 +17,19 @@
       }
     },
     "version": {
-      "executor": "@mapplesorg/nx-tools:version"
+      "executor": "@mapples/nx-tools:version"
     },
     "publish": {
-      "executor": "@mapplesorg/nx-tools:publish",
+      "executor": "@mapples/nx-tools:publish",
       "options": {
-        "access": "restricted"
+        "access": "public"
       },
       "dependsOn": ["^build", "build"]
     },
     "release": {
-      "executor": "@mapplesorg/nx-tools:publish",
+      "executor": "@mapples/nx-tools:publish",
       "options": {
-        "access": "restricted"
+        "access": "public"
       },
       "dependsOn": ["version", "^build", "build"]
     },

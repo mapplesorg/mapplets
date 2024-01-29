@@ -1,7 +1,7 @@
 {
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "organization": "mapplesorg",
+  "organization": "mapples",
   "targetDefaults": {
     "build": {
       "cache": false,

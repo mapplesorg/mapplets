@@ -15,15 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mapplesorg/mapplets": ["packages/mapplets/src/index.ts"],
-      "@mapplesorg/mapplets-button": ["packages/mapplets-button/src/index.ts"],
-      "@mapplesorg/mapplets-card": ["packages/mapplets-card/src/index.ts"],
-      "@mapplesorg/mapplets-renderer": [
+      "@mapples/mapplets": ["packages/mapplets/src/index.ts"],
+      "@mapples/mapplets-button": ["packages/mapplets-button/src/index.ts"],
+      "@mapples/mapplets-card": ["packages/mapplets-card/src/index.ts"],
+      "@mapples/mapplets-renderer": [
         "packages/mapplets-renderer/src/index.ts"
       ],
-      "@mapplesorg/mapplets-text": ["packages/mapplets-text/src/index.ts"],
-      "@mapplesorg/mapplets-types": ["packages/mapplets-types/src/index.ts"],
-      "@mapplesorg/mapplets-view": ["packages/mapplets-view/src/index.ts"]
+      "@mapples/mapplets-text": ["packages/mapplets-text/src/index.ts"],
+      "@mapples/mapplets-types": ["packages/mapplets-types/src/index.ts"],
+      "@mapples/mapplets-view": ["packages/mapplets-view/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

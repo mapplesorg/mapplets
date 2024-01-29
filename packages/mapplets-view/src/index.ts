@@ -1,4 +1,4 @@
-import { MappletsComponentSet } from '@mapplesorg/mapplets-types';
+import { MappletsComponentSet } from '@mapples/mapplets-types';
 
 import View from './components/View';
 import ScrollView from './components/ScrollView';

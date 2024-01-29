@@ -1,4 +1,10 @@
 {
-  "name": "@mapplesorg/mapplets-view",
-  "version": "0.0.0"
+  "name": "@mapples/mapplets-view",
+  "version": "0.0.0",
+  "dependencies": {
+    "@mapples/mapplets-types": "0.0.1",
+    "@testing-library/jest-native": "~5.4.3",
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  }
 }

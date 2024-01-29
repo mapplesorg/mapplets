@@ -1,4 +1,13 @@
 {
-  "name": "@mapplesorg/mapplets-text",
-  "version": "0.0.0"
+  "name": "@mapples/mapplets-text",
+  "version": "0.0.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@mapples/mapplets-types": "0.0.1",
+    "@testing-library/jest-native": "~5.4.3",
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  }
 }

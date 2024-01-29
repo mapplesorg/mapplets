@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import { TouchableOpacity } from 'react-native';
 
-import { Text } from '@mapplesorg/mapplets-text';
+import { Text } from '@mapples/mapplets-text';
 
 import { ButtonProps } from '../types';
 

@@ -1,6 +1,6 @@
 # mapplets-types
 
-This library was generated with @mapplesorg/nx-tool.
+This library was generated with @mapples/nx-tool.
 
 ## Running unit tests
 

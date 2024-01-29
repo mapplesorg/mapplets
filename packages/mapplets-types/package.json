@@ -1,5 +1,5 @@
 {
-  "name": "@mapplesorg/mapplets-types",
+  "name": "@mapples/mapplets-types",
   "version": "0.0.1",
   "dependencies": {
     "@testing-library/jest-native": "~5.4.3",

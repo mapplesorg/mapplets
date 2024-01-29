@@ -18,7 +18,11 @@
       "@mapplesorg/mapplets": ["packages/mapplets/src/index.ts"],
       "@mapplesorg/mapplets-button": ["packages/mapplets-button/src/index.ts"],
       "@mapplesorg/mapplets-card": ["packages/mapplets-card/src/index.ts"],
+      "@mapplesorg/mapplets-renderer": [
+        "packages/mapplets-renderer/src/index.ts"
+      ],
       "@mapplesorg/mapplets-text": ["packages/mapplets-text/src/index.ts"],
+      "@mapplesorg/mapplets-types": ["packages/mapplets-types/src/index.ts"],
       "@mapplesorg/mapplets-view": ["packages/mapplets-view/src/index.ts"]
     }
   },

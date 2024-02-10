@@ -2,7 +2,7 @@
   "name": "@mapples/mapplets-renderer",
   "version": "0.0.0",
   "dependencies": {
-    "@mapples/mapplets-button": "0.0.1",
+    "@mapples/mapplets-button": "0.0.2",
     "@mapples/mapplets-card": "0.0.1",
     "@mapples/mapplets-text": "0.0.1",
     "@mapples/mapplets-types": "0.0.2",

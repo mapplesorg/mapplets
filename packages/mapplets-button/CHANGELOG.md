@@ -2,6 +2,15 @@
 
 ## mapplets-button
 
+## 0.0.3 (2024-02-10)
+
+
+### Features
+
+* **mapplets-button:** fix ref forwarding ([c3a4cbf](https://github.com/mapplesorg/mapplets/commit/c3a4cbff57cbc213329605838a5089fc8c724145))
+
+
+
 ## 0.0.2 (2024-02-10)
 
 

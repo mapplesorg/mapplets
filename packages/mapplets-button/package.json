@@ -1,6 +1,6 @@
 {
   "name": "@mapples/mapplets-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "@mapples/mapplets-text": "0.0.1",
     "@mapples/mapplets-types": "0.0.2",

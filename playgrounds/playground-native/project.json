@@ -6,25 +6,19 @@
   "targets": {
     "start": {
       "executor": "@nx/react-native:start",
-      "dependsOn": ["ensure-symlink", "sync-deps", "pod-install"],
+      "dependsOn": ["sync-deps"],
       "options": {
         "port": 8081
       }
     },
-    "serve": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "nx start playground-native"
-      }
-    },
     "run-ios": {
       "executor": "@nx/react-native:run-ios",
-      "dependsOn": ["ensure-symlink", "sync-deps", "pod-install"],
+      "dependsOn": ["sync-deps"],
       "options": {}
     },
     "bundle-ios": {
       "executor": "@nx/react-native:bundle",
-      "dependsOn": ["ensure-symlink"],
+      "dependsOn": [],
       "outputs": ["{options.bundleOutput}"],
       "options": {
         "entryFile": "src/main.tsx",
@@ -34,7 +28,7 @@
     },
     "run-android": {
       "executor": "@nx/react-native:run-android",
-      "dependsOn": ["ensure-symlink", "sync-deps"],
+      "dependsOn": ["sync-deps"],
       "options": {}
     },
     "build-android": {
@@ -43,13 +37,13 @@
         "{projectRoot}/android/app/build/outputs/bundle",
         "{projectRoot}/android/app/build/outputs/apk"
       ],
-      "dependsOn": ["ensure-symlink", "sync-deps"],
+      "dependsOn": ["sync-deps"],
       "options": {}
     },
     "build-ios": {
       "executor": "@nx/react-native:build-ios",
       "outputs": ["{projectRoot}/ios/build/Build"],
-      "dependsOn": ["ensure-symlink", "sync-deps", "pod-install"],
+      "dependsOn": ["sync-deps"],
       "options": {}
     },
     "pod-install": {
@@ -58,7 +52,7 @@
     },
     "bundle-android": {
       "executor": "@nx/react-native:bundle",
-      "dependsOn": ["ensure-symlink"],
+      "dependsOn": [],
       "outputs": ["{options.bundleOutput}"],
       "options": {
         "entryFile": "src/main.tsx",
@@ -68,10 +62,6 @@
     },
     "sync-deps": {
       "executor": "@nx/react-native:sync-deps",
-      "options": {}
-    },
-    "ensure-symlink": {
-      "executor": "@nx/react-native:ensure-symlink",
       "options": {}
     },
     "lint": {
@@ -84,6 +74,61 @@
       "options": {
         "jestConfig": "playgrounds/playground-native/jest.config.ts"
       }
+    },
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/playgrounds/playground-native/web",
+        "index": "playgrounds/playground-native/src/index.html",
+        "baseHref": "/",
+        "main": "playgrounds/playground-native/src/main-web.tsx",
+        "tsConfig": "playgrounds/playground-native/tsconfig.app.json",
+        "assets": [
+          "playgrounds/playground-native/src/favicon.ico",
+          "playgrounds/playground-native/src/assets"
+        ],
+        "webpackConfig": "playgrounds/playground-native/webpack.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "playground-native:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "playground-native:build:development"
+        },
+        "production": {
+          "buildTarget": "playground-native:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "upgrade": {
+      "executor": "@nx/react-native:upgrade",
+      "options": {}
     }
   },
   "tags": []

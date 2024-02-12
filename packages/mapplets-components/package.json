@@ -5,7 +5,7 @@
     "@mapples/mapplets-button": "0.0.6",
     "@mapples/mapplets-card": "0.0.4",
     "@mapples/mapplets-text": "0.0.6",
-    "@mapples/mapplets-view": "0.0.3",
+    "@mapples/mapplets-view": "0.0.4",
     "@testing-library/jest-native": "~5.4.3",
     "lodash": "^4.17.21"
   }

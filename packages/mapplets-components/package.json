@@ -1,11 +1,11 @@
 {
   "name": "@mapples/mapplets-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
-    "@mapples/mapplets-button": "0.0.4",
-    "@mapples/mapplets-card": "0.0.2",
-    "@mapples/mapplets-text": "0.0.3",
-    "@mapples/mapplets-view": "0.0.2",
+    "@mapples/mapplets-button": "0.0.5",
+    "@mapples/mapplets-card": "0.0.3",
+    "@mapples/mapplets-text": "0.0.4",
+    "@mapples/mapplets-view": "0.0.3",
     "@testing-library/jest-native": "~5.4.3",
     "lodash": "^4.17.21"
   }

@@ -34,5 +34,13 @@
         "{workspaceRoot}/eslint.config.js"
       ]
     }
-  }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ]
 }

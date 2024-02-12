@@ -1,6 +1,6 @@
 {
   "name": "@mapples/mapplets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
     "@testing-library/jest-native": "~5.4.3",
     "react": "18.2.0",

@@ -2,7 +2,7 @@
   "name": "@mapples/mapplets-button",
   "version": "0.0.4",
   "dependencies": {
-    "@mapples/mapplets-text": "0.0.2",
+    "@mapples/mapplets-text": "0.0.3",
     "@mapples/mapplets-types": "0.0.2",
     "@testing-library/jest-native": "~5.4.3",
     "react": "18.2.0",

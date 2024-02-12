@@ -1,7 +1,7 @@
-export interface MappletsComponentDescriptor<T> {
+export interface MappletsDOM<T> {
   id: string | 'root';
   props: object;
   type: T;
   parent: string;
-  children: MappletsComponentDescriptor<T>[];
+  children: MappletsDOM<T>[];
 }

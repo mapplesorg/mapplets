@@ -1,10 +1,10 @@
 {
   "name": "@mapples/mapplets-card",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": {
-    "@mapples/mapplets-text": "0.0.10",
-    "@mapples/mapplets-types": "0.0.8",
-    "@mapples/mapplets-view": "0.0.8",
+    "@mapples/mapplets-text": "0.0.11",
+    "@mapples/mapplets-types": "0.0.9",
+    "@mapples/mapplets-view": "0.0.9",
     "@testing-library/jest-native": "~5.4.3",
     "react": "18.2.0",
     "react-native": "0.73.2"

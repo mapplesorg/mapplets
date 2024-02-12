@@ -1,6 +1,6 @@
-# mapplets-renderer@0.0.4
+# mapplets-renderer@0.0.5
 
-    ## 0.0.4 (2024-02-12)
+    ## 0.0.5 (2024-02-12)
 
 
   

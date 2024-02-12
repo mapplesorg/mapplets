@@ -26,15 +26,15 @@
       "executor": "@mapplesorg/nx-tools:publish",
       "options": {
         "access": "public"
-      },
-      "dependsOn": ["^build", "build"]
+      }
     },
     "release": {
-      "executor": "@mapplesorg/nx-tools:publish",
+      "executor": "@mapplesorg/nx-tools:release",
       "options": {
-        "access": "public"
+        "createGitHubVersion": true,
+        "postTargets": ["publish"]
       },
-      "dependsOn": ["version", "^build", "build"]
+      "dependsOn": ["^build", "build"]
     },
     "lint": {
       "executor": "@nx/eslint:lint",

@@ -2,7 +2,7 @@
   "name": "@mapples/mapplets-card",
   "version": "0.0.3",
   "dependencies": {
-    "@mapples/mapplets-text": "0.0.3",
+    "@mapples/mapplets-text": "0.0.5",
     "@mapples/mapplets-types": "0.0.3",
     "@mapples/mapplets-view": "0.0.3",
     "@testing-library/jest-native": "~5.4.3",

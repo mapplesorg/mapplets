@@ -1,4 +1,3 @@
-export interface Mapplet {
+export interface MappletConfig {
   id: string;
-  clientSecret: string;
 }

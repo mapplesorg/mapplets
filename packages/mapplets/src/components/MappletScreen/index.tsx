@@ -1,12 +1,17 @@
 import React, { FC } from 'react';
 import { View } from 'react-native';
 
+import render from '@mapples/mapplets-renderer';
+
+import useMapplesAPI from '../../hooks/useMapplesAPI';
+import { MappletConfig } from '../../types';
+
 import styles from './styles';
 
-import { Mapplet } from '../../types';
+const MappletScreen: FC<MappletConfig> = ({ id }) => {
+  const { dom } = useMapplesAPI(id);
 
-const MappletScreen: FC<Mapplet> = () => {
-  return <View style={styles.container}></View>;
+  return <View style={styles.container}>{dom && render(dom)}</View>;
 };
 
 export default MappletScreen;

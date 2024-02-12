@@ -1,12 +1,12 @@
 {
   "name": "@mapples/mapplets-renderer",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "dependencies": {
-    "@mapples/mapplets-button": "0.0.6",
-    "@mapples/mapplets-card": "0.0.4",
-    "@mapples/mapplets-text": "0.0.6",
-    "@mapples/mapplets-types": "0.0.4",
-    "@mapples/mapplets-view": "0.0.4",
+    "@mapples/mapplets-button": "0.0.8",
+    "@mapples/mapplets-card": "0.0.6",
+    "@mapples/mapplets-text": "0.0.8",
+    "@mapples/mapplets-types": "0.0.6",
+    "@mapples/mapplets-view": "0.0.6",
     "@testing-library/jest-native": "~5.4.3",
     "lodash": "^4.17.21",
     "react": "18.2.0"

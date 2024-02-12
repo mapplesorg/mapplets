@@ -30,7 +30,7 @@
       "dependsOn": ["^build", "build"]
     },
     "release": {
-      "executor": "nx-tools:release",
+      "executor": "@mapplesorg/nx-tools:release",
       "options": {
         "createGitHubVersion": true,
         "postTargets": ["publish"]

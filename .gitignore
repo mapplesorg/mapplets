@@ -111,3 +111,6 @@ yarn-error.log
 
 
 playgrounds/playground-native-e2e/artifacts
+
+**/env.js
+**/env.ts

@@ -10,6 +10,7 @@ class OpenApi {
     this.axios = axios.create({
       baseURL
     })
+    this.Page = new PageApi(this.axios)
   }
 }
 

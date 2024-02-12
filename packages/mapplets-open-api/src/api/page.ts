@@ -2,7 +2,12 @@ import { MappletsApiService } from '../base';
 import { MappletsResponse } from '@mapples/mapplets-types';
 
 export class PageApi extends MappletsApiService {
-  getPage = <T>(id: string): Promise<MappletsResponse<T>> => {
-    return this.axios.get(`/page/${id}`)
+  getPage = async<T>(id: string): Promise<MappletsResponse<T>> => {
+    try {
+      const { data } = await this.axios.get(`/page/${id}`);
+      return data;
+    } catch (e) {
+      throw new Error((e as Error).message);
+    }
   }
 }

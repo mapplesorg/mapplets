@@ -29,7 +29,7 @@ const useMapplesAPI = (id: string) => {
         pending.current = false;
       });
     }
-  }, []);
+  }, [id]);
 
   return {
     dom,

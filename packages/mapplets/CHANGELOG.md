@@ -1,4 +1,4 @@
-# mapplets@0.0.9 (2024-02-13)
+# mapplets@0.0.10 (2024-02-13)
 
 ### Features
 
@@ -9,5 +9,6 @@
 ### Bug Fixes
 
 * **mapplets:** export MaplletsOpenApi from core package ([843dae2](https://github.com/mapplesorg/mapplets/commit/843dae22807b49d77a63f766f857762dc1985cc5))
+* **mapplets:** export other types from core package ([a8927ca](https://github.com/mapplesorg/mapplets/commit/a8927ca1fdd83fa804a56dbbe5654cd6ad4bbb56))
 * **mapplets:** fix id deps ([b8e2721](https://github.com/mapplesorg/mapplets/commit/b8e27218e801b2d0257685f2a59e9416868d214e))
 

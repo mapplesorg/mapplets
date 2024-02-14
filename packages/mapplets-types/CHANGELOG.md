@@ -1,4 +1,4 @@
-# mapplets-types@0.0.11 (2024-02-14)
+# mapplets-types@0.0.12 (2024-02-14)
 
 ### Features
 
@@ -8,4 +8,5 @@
 ### Bug Fixes
 
 * **mapplets-types:** fix issue with jsx ([63999f2](https://github.com/mapplesorg/mapplets/commit/63999f23a1912d520d75840c2e6be8c4fe78fe0e))
+* **mapplets-types:** update peer deps ([31e9d3c](https://github.com/mapplesorg/mapplets/commit/31e9d3c71ceed8ef28e34e95d0c096b8e0dc7be7))
 

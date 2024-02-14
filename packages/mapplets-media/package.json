@@ -1,0 +1,8 @@
+{
+  "name": "@mapples/mapplets-media",
+  "version": "0.0.0",
+  "dependencies": {
+    "@testing-library/jest-native": "~5.4.3",
+    "react-native": "0.73.2"
+  }
+}

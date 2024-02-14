@@ -21,6 +21,7 @@
       "@mapples/mapplets-components": [
         "packages/mapplets-components/src/index.ts"
       ],
+      "@mapples/mapplets-media": ["packages/mapplets-media/src/index.ts"],
       "@mapples/mapplets-open-api": ["packages/mapplets-open-api/src/index.ts"],
       "@mapples/mapplets-renderer": ["packages/mapplets-renderer/src/index.ts"],
       "@mapples/mapplets-text": ["packages/mapplets-text/src/index.ts"],

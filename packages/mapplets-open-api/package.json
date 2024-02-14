@@ -1,11 +1,11 @@
 {
   "name": "@mapples/mapplets-open-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "peerDependencies": {
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.11",
+    "@mapples/mapplets-types": "0.0.12",
     "@testing-library/jest-native": "~5.4.3",
     "axios": "^1.6.7"
   }

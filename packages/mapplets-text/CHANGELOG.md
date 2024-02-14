@@ -1,4 +1,4 @@
-# mapplets-text@0.0.12 (2024-02-14)
+# mapplets-text@0.0.13 (2024-02-14)
 
 ### Bug Fixes
 

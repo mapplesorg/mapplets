@@ -1,13 +1,13 @@
 {
   "name": "@mapples/mapplets-button",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-text": "0.0.13",
-    "@mapples/mapplets-types": "0.0.11",
+    "@mapples/mapplets-text": "0.0.14",
+    "@mapples/mapplets-types": "0.0.12",
     "@testing-library/jest-native": "~5.4.3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@mapples/mapplets-text",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -9,7 +9,7 @@
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.11",
+    "@mapples/mapplets-types": "0.0.12",
     "@testing-library/jest-native": "~5.4.3"
   }
 }

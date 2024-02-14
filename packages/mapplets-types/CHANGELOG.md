@@ -1,4 +1,4 @@
-# mapplets-types@0.0.10 (2024-02-14)
+# mapplets-types@0.0.11 (2024-02-14)
 
 ### Features
 

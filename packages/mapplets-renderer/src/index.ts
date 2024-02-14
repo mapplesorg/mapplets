@@ -10,7 +10,10 @@ export function render(
 ): ReactElement {
   return createElement(
     RendererComponentSet[component.type],
-    component.props,
+    {
+      ...component.props,
+      key: component.id,
+    },
     map(component.children ?? [], render)
   );
 }

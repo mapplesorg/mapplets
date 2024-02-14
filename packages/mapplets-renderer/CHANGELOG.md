@@ -1,6 +1,11 @@
-# mapplets-renderer@0.0.7 (2024-02-12)
+# mapplets-renderer@0.0.8 (2024-02-14)
 
 ### Features
 
 * **mapplets-renderer:** fix renderer types ([269079d](https://github.com/mapplesorg/mapplets/commit/269079de2c1fbd25b2cd1342dd7c48235c6610e2))
+
+
+### Bug Fixes
+
+* **mapplets-renderer:** fix issue with ScrollView render ([9497cf9](https://github.com/mapplesorg/mapplets/commit/9497cf95537e2805633ef8897b3800a712acc469))
 

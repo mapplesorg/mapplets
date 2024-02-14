@@ -11,7 +11,7 @@ export function render(
   return createElement(
     RendererComponentSet[component.type],
     component.props,
-    map(component.children, render)
+    map(component.children ?? [], render)
   );
 }
 

@@ -4,10 +4,12 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "^0.73.2"
+  },
   "dependencies": {
     "@mapples/mapplets-types": "0.0.11",
-    "@testing-library/jest-native": "~5.4.3",
-    "react": "18.2.0",
-    "react-native": "0.73.2"
+    "@testing-library/jest-native": "~5.4.3"
   }
 }

@@ -1,4 +1,4 @@
-# mapplets-renderer@0.0.8 (2024-02-14)
+# mapplets-renderer@0.0.9 (2024-02-14)
 
 ### Features
 
@@ -7,5 +7,6 @@
 
 ### Bug Fixes
 
+* **mapplets-renderer:** fix issue with jsx ([483a46b](https://github.com/mapplesorg/mapplets/commit/483a46bc88b2f9962599e24edf61cb4f44f61357))
 * **mapplets-renderer:** fix issue with ScrollView render ([9497cf9](https://github.com/mapplesorg/mapplets/commit/9497cf95537e2805633ef8897b3800a712acc469))
 

@@ -1,4 +1,4 @@
-# mapplets-open-api@0.0.2 (2024-02-14)
+# mapplets-open-api@0.0.3 (2024-02-14)
 
 ### Features
 

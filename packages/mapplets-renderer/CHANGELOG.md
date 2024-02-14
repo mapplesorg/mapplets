@@ -1,4 +1,4 @@
-# mapplets-renderer@0.0.9 (2024-02-14)
+# mapplets-renderer@0.0.10 (2024-02-14)
 
 ### Features
 

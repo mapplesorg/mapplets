@@ -1,12 +1,12 @@
 {
   "name": "@mapples/mapplets-view",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.11",
+    "@mapples/mapplets-types": "0.0.12",
     "@testing-library/jest-native": "~5.4.3"
   }
 }

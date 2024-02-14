@@ -1,4 +1,4 @@
-# mapplets-components@0.0.13 (2024-02-14)
+# mapplets-components@0.0.14 (2024-02-14)
 
 ### Bug Fixes
 

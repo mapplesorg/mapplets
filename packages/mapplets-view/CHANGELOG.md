@@ -1,4 +1,12 @@
-# mapplets-view@0.0.12 (2024-02-14)
+# mapplets-view@0.0.13 (2024-02-15)
+
+### Features
+
+* **mapplets-view:** add horizontal scroll view component ([1086dcf](https://github.com/mapplesorg/mapplets/commit/1086dcf9ee787f81ea5eb75b18f81a0ab3d13355))
+* **mapplets-view:** add image view component ([6bffc89](https://github.com/mapplesorg/mapplets/commit/6bffc8958e23fe3659ff399e164d60927623f643))
+* **mapplets-view:** register horizontal scroll view ([a8f3fde](https://github.com/mapplesorg/mapplets/commit/a8f3fde72ea890eb1fc79cc893caf4856fee5994))
+* **mapplets-view:** update deps ([a4f617e](https://github.com/mapplesorg/mapplets/commit/a4f617e3c374e8932a74f7bce499fe3a73ea0e05))
+
 
 ### Bug Fixes
 

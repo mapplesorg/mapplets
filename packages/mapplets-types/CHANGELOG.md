@@ -1,8 +1,9 @@
-# mapplets-types@0.0.12 (2024-02-14)
+# mapplets-types@0.0.13 (2024-02-15)
 
 ### Features
 
 * **mapplets-types:** add api types ([7780d67](https://github.com/mapplesorg/mapplets/commit/7780d6772623aa93f3cacc0e83ab52a301fbf1b5))
+* **mapplets-types:** update deps ([cdccb28](https://github.com/mapplesorg/mapplets/commit/cdccb2808f2ea3f7e282ea5b571f808ce617bfae))
 
 
 ### Bug Fixes

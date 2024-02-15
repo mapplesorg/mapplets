@@ -1,5 +1,6 @@
 export enum ViewComponentType {
   View = 'View',
   ScrollView = 'ScrollView',
-  ImageView = 'ImageView'
+  HorizontalScrollView = 'HorizontalScrollView',
+  ImageView = 'ImageView',
 }

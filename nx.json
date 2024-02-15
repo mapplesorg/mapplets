@@ -7,10 +7,18 @@
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "organization": "mapples",
+  "namedInputs": {
+    "production": [
+      "default",
+      "!{projectRoot}/test-setup.ts",
+      "!{projectRoot}/**/*.spec.tsx"
+    ]
+  },
   "targetDefaults": {
     "build": {
       "cache": false,
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "inputs": ["production"]
     },
     "@nx/jest:jest": {
       "cache": true,
@@ -28,7 +36,6 @@
     "@nx/eslint:lint": {
       "cache": false,
       "inputs": [
-        "default",
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore",
         "{workspaceRoot}/eslint.config.js"

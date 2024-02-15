@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "lint": "nx run-many -t lint --fix"
+    "lint": "nx run-many -t lint"
   },
   "private": true,
   "dependencies": {

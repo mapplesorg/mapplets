@@ -1,4 +1,5 @@
 import {
+  FlatList,
   ImageBackground,
   ScrollView,
   ScrollViewProps,
@@ -12,4 +13,4 @@ export type ImageViewProps = ViewProps & {
   imageWidth?: number;
   imageHeight?: number;
 };
-export type ViewRef = View & ScrollView & ImageBackground;
+export type ViewRef = View & ScrollView & ImageBackground & FlatList;

@@ -1,15 +1,15 @@
 {
   "name": "@mapples/mapplets-renderer",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "peerDependencies": {
     "react": "18.2.0",
     "lodash": "^4.17.21"
   },
   "dependencies": {
-    "@mapples/mapplets-button": "0.0.14",
-    "@mapples/mapplets-card": "0.0.12",
-    "@mapples/mapplets-text": "0.0.14",
-    "@mapples/mapplets-types": "0.0.12",
-    "@mapples/mapplets-view": "0.0.12"
+    "@mapples/mapplets-button": "0.0.15",
+    "@mapples/mapplets-card": "0.0.13",
+    "@mapples/mapplets-text": "0.0.15",
+    "@mapples/mapplets-types": "0.0.13",
+    "@mapples/mapplets-view": "0.0.13"
   }
 }

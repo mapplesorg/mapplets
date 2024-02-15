@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "@mapples/mapplets-text": "0.0.14",
-    "@mapples/mapplets-types": "0.0.12",
-    "@testing-library/jest-native": "~5.4.3"
+    "@mapples/mapplets-types": "0.0.12"
   }
 }

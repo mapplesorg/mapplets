@@ -1,4 +1,9 @@
-# mapplets-card@0.0.12 (2024-02-14)
+# mapplets-card@0.0.13 (2024-02-15)
+
+### Features
+
+* **mapplets-card:** update deps ([afc809c](https://github.com/mapplesorg/mapplets/commit/afc809cecc44ce8e32edfd4e0ee9ccda0bdd2f8d))
+
 
 ### Bug Fixes
 

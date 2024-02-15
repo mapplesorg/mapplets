@@ -3,9 +3,5 @@
   "version": "0.0.12",
   "peerDependencies": {
     "react": "18.2.0"
-  },
-  "dependencies": {
-    "@testing-library/jest-native": "~5.4.3",
-    "react": "18.2.0"
   }
 }

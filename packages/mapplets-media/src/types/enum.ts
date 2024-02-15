@@ -1,3 +1,4 @@
 export enum MediaComponentType {
-  Image = 'Image'
+  Image = 'Image',
+  LottieImage = 'LottieImage'
 }

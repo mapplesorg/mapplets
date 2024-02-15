@@ -9,7 +9,6 @@
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.12",
-    "@testing-library/jest-native": "~5.4.3"
+    "@mapples/mapplets-types": "0.0.12"
   }
 }

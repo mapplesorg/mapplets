@@ -1,3 +1,14 @@
-const NewComponent = 'mapplets-media';
+import { MappletsComponentSet } from '@mapples/mapplets-types';
 
-export default NewComponent;
+import Image from './components/Image';
+
+import { MediaComponentType } from './types';
+
+const MediaComponent: MappletsComponentSet<MediaComponentType> = {
+  Image,
+};
+
+export * from './types';
+export { Image };
+
+export default MediaComponent;

@@ -1,8 +1,11 @@
 {
   "name": "@mapples/mapplets-media",
   "version": "0.0.0",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "^0.73.2"
+  },
   "dependencies": {
-    "@testing-library/jest-native": "~5.4.3",
-    "react-native": "0.73.2"
+    "@mapples/mapplets-types": "0.0.12"
   }
 }

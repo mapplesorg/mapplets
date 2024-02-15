@@ -1,4 +1,9 @@
-# mapplets-components@0.0.14 (2024-02-14)
+# mapplets-components@0.0.15 (2024-02-15)
+
+### Features
+
+* **mapplets-components:** add media component ([ac16a0c](https://github.com/mapplesorg/mapplets/commit/ac16a0cbea2d2ec54418cb67514c7c5c745b519a))
+
 
 ### Bug Fixes
 

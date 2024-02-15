@@ -3,16 +3,12 @@
   "version": "0.0.14",
   "peerDependencies": {
     "react": "18.2.0",
-    "react-native": "^0.73.2",
-    "@testing-library/jest-native": "~5.4.3"
+    "react-native": "^0.73.2"
   },
   "dependencies": {
     "@mapples/mapplets-renderer": "0.0.11",
     "@mapples/mapplets-types": "0.0.12",
     "@mapples/mapplets-components": "0.0.14",
     "@mapples/mapplets-open-api": "0.0.4"
-  },
-  "devDependencies": {
-    "@testing-library/jest-native": "~5.4.3"
   }
 }

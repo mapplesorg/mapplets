@@ -1,4 +1,9 @@
-# mapplets-text@0.0.14 (2024-02-14)
+# mapplets-text@0.0.15 (2024-02-15)
+
+### Features
+
+* **mapplets-text:** update deps ([6ff1dea](https://github.com/mapplesorg/mapplets/commit/6ff1dea786326cfe15960ae8fd08c6001b0d9363))
+
 
 ### Bug Fixes
 

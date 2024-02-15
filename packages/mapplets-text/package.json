@@ -1,6 +1,6 @@
 {
   "name": "@mapples/mapplets-text",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -9,6 +9,6 @@
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.12"
+    "@mapples/mapplets-types": "0.0.13"
   }
 }

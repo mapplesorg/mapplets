@@ -1,12 +1,12 @@
 {
   "name": "@mapples/mapplets-media",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "^0.73.2",
     "lottie-react-native": "^6.6.0"
   },
   "dependencies": {
-    "@mapples/mapplets-types": "0.0.12"
+    "@mapples/mapplets-types": "0.0.13"
   }
 }

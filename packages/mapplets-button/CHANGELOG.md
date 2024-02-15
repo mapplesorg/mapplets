@@ -1,4 +1,9 @@
-# mapplets-button@0.0.14 (2024-02-14)
+# mapplets-button@0.0.15 (2024-02-15)
+
+### Features
+
+* **mapplets-button:** register new component types ([58062ea](https://github.com/mapplesorg/mapplets/commit/58062ea925beb18cbdd6e43e43187a2b538fe0e3))
+
 
 ### Bug Fixes
 

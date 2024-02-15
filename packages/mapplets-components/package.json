@@ -1,12 +1,14 @@
 {
   "name": "@mapples/mapplets-components",
   "version": "0.0.14",
+  "peerDependencies": {
+    "lodash": "^4"
+  },
   "dependencies": {
+    "@mapples/mapplets-media": "0.0.0",
     "@mapples/mapplets-button": "0.0.14",
     "@mapples/mapplets-card": "0.0.12",
     "@mapples/mapplets-text": "0.0.14",
-    "@mapples/mapplets-view": "0.0.12",
-    "@testing-library/jest-native": "~5.4.3",
-    "lodash": "^4.17.21"
+    "@mapples/mapplets-view": "0.0.12"
   }
 }

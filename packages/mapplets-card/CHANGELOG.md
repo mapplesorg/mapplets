@@ -1,4 +1,4 @@
-# mapplets-card@0.0.13 (2024-02-15)
+# mapplets-card@0.0.14 (2024-02-16)
 
 ### Features
 

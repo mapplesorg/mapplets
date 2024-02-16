@@ -1,4 +1,4 @@
-# mapplets-text@0.0.15 (2024-02-15)
+# mapplets-text@0.0.16 (2024-02-16)
 
 ### Features
 

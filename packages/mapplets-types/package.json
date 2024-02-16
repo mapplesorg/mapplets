@@ -1,6 +1,6 @@
 {
   "name": "@mapples/mapplets-types",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "peerDependencies": {
     "react": "18.2.0"
   }

@@ -3,7 +3,8 @@
   "version": "0.0.12",
   "peerDependencies": {
     "react": "18.2.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "@mapples/mapplets-media": "0.0.1"
   },
   "dependencies": {
     "@mapples/mapplets-button": "0.0.15",

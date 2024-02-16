@@ -8,7 +8,7 @@
   "dependencies": {
     "@mapples/mapplets-renderer": "0.0.12",
     "@mapples/mapplets-types": "0.0.13",
-    "@mapples/mapplets-components": "0.0.15",
+    "@mapples/mapplets-components": "0.0.16",
     "@mapples/mapplets-open-api": "0.0.5"
   }
 }

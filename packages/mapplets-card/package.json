@@ -6,8 +6,8 @@
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-text": "0.0.14",
+    "@mapples/mapplets-text": "0.0.15",
     "@mapples/mapplets-types": "0.0.13",
-    "@mapples/mapplets-view": "0.0.12"
+    "@mapples/mapplets-view": "0.0.13"
   }
 }

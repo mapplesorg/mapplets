@@ -1,16 +1,16 @@
 {
   "name": "@mapples/mapplets-renderer",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "peerDependencies": {
     "react": "18.2.0",
     "lodash": "^4.17.21",
     "@mapples/mapplets-media": "0.0.1"
   },
   "dependencies": {
-    "@mapples/mapplets-button": "0.0.15",
-    "@mapples/mapplets-card": "0.0.13",
-    "@mapples/mapplets-text": "0.0.15",
-    "@mapples/mapplets-types": "0.0.13",
-    "@mapples/mapplets-view": "0.0.13"
+    "@mapples/mapplets-button": "0.0.16",
+    "@mapples/mapplets-card": "0.0.14",
+    "@mapples/mapplets-text": "0.0.16",
+    "@mapples/mapplets-types": "0.0.14",
+    "@mapples/mapplets-view": "0.0.14"
   }
 }

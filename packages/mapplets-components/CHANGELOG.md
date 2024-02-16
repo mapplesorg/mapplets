@@ -1,4 +1,4 @@
-# mapplets-components@0.0.16 (2024-02-15)
+# mapplets-components@0.0.17 (2024-02-16)
 
 ### Features
 

@@ -1,14 +1,14 @@
 {
   "name": "@mapples/mapplets",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "^0.73.2"
   },
   "dependencies": {
-    "@mapples/mapplets-renderer": "0.0.12",
-    "@mapples/mapplets-types": "0.0.13",
-    "@mapples/mapplets-components": "0.0.16",
-    "@mapples/mapplets-open-api": "0.0.5"
+    "@mapples/mapplets-renderer": "0.0.13",
+    "@mapples/mapplets-types": "0.0.14",
+    "@mapples/mapplets-components": "0.0.17",
+    "@mapples/mapplets-open-api": "0.0.6"
   }
 }

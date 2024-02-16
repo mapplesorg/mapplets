@@ -36,6 +36,7 @@
     "@nx/eslint:lint": {
       "cache": false,
       "inputs": [
+        "default",
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore",
         "{workspaceRoot}/eslint.config.js"
